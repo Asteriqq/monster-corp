@@ -5,12 +5,18 @@
 }
 
 body {
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to left, rgb(63, 151, 233), rgb(21, 86, 146), rgb(36, 57, 91));
   text-align: center
 }
+
+#root{
+  width: 100%;
+}
+
 
 input{
   height: 30px;
